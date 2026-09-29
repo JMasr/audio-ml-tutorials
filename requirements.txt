@@ -1,0 +1,13 @@
+# CPU is enough for every notebook. For CUDA, install torch from https://pytorch.org first.
+torch>=2.4
+transformers==4.57.6
+peft==0.20.0
+datasets
+soundfile
+accelerate
+optuna>=4
+mlflow>=3
+scikit-learn
+matplotlib
+numpy
+ipykernel
