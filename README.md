@@ -1,14 +1,14 @@
-# Audio ML tutorials
+# AI tutorials
 
-Runnable notebooks on machine learning for speech and audio, by [José Manuel Ramírez Sánchez](https://jmramirez.engineer).
+Runnable notebooks on AI by [José Manuel Ramírez Sánchez](https://jmramirez.engineer).
 
 Every notebook runs on a laptop CPU in minutes, uses only public or synthetic audio (no personal or clinical data), and is written so the same mechanism can be reused on a real project by swapping only the data-loading section.
 
 | Notebook | What it teaches | English | Español |
 |---|---|---|---|
-| MFCC and PLP from scratch | The classic acoustic features rebuilt in NumPy (MFCC, PLP, RASTA-PLP), checked against librosa and spafe, a small noise experiment, and the bridge to Whisper's log-Mel input | [en](en/mfcc-plp-from-scratch.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/audio-ml-tutorials/blob/main/en/mfcc-plp-from-scratch.ipynb) | [es](es/mfcc-plp-from-scratch.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/audio-ml-tutorials/blob/main/es/mfcc-plp-from-scratch.ipynb) |
-| Fine-tuning Whisper with Optuna, cross-validation and MLflow | Fine-tuning on real speech (LibriSpeech subset): chapter-grouped CV, Optuna pruning, nested MLflow runs, a locked test set and a zero-shot baseline | [en](en/whisper-optuna-mlflow.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/audio-ml-tutorials/blob/main/en/whisper-optuna-mlflow.ipynb) | [es](es/whisper-optuna-mlflow.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/audio-ml-tutorials/blob/main/es/whisper-optuna-mlflow.ipynb) |
-| PEFT and LoRA on Whisper | Where to place LoRA adapters for a downstream classifier vs. an embedding extractor; adapter checkpoints (synthetic audio) | [en](en/whisper-peft-lora.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/audio-ml-tutorials/blob/main/en/whisper-peft-lora.ipynb) | [es](es/whisper-peft-lora.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/audio-ml-tutorials/blob/main/es/whisper-peft-lora.ipynb) |
+| MFCC and PLP from scratch | The classic acoustic features rebuilt in NumPy (MFCC, PLP, RASTA-PLP), checked against librosa and spafe, a small noise experiment, and the bridge to Whisper's log-Mel input | [en](en/mfcc-plp-from-scratch.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/ai-tutorials/blob/main/en/mfcc-plp-from-scratch.ipynb) | [es](es/mfcc-plp-from-scratch.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/ai-tutorials/blob/main/es/mfcc-plp-from-scratch.ipynb) |
+| Fine-tuning Whisper with Optuna, cross-validation and MLflow | Fine-tuning on real speech (LibriSpeech subset): chapter-grouped CV, Optuna pruning, nested MLflow runs, a locked test set and a zero-shot baseline | [en](en/whisper-optuna-mlflow.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/ai-tutorials/blob/main/en/whisper-optuna-mlflow.ipynb) | [es](es/whisper-optuna-mlflow.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/ai-tutorials/blob/main/es/whisper-optuna-mlflow.ipynb) |
+| PEFT and LoRA on Whisper | Where to place LoRA adapters for a downstream classifier vs. an embedding extractor; adapter checkpoints (synthetic audio) | [en](en/whisper-peft-lora.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/ai-tutorials/blob/main/en/whisper-peft-lora.ipynb) | [es](es/whisper-peft-lora.ipynb) · [Colab](https://colab.research.google.com/github/JMasr/ai-tutorials/blob/main/es/whisper-peft-lora.ipynb) |
 
 Written walkthroughs: https://jmramirez.engineer/tutorials/
 
